@@ -1,0 +1,2 @@
+com/amazon/ata/texttruncator/TextTruncatorTest.java
+ com.amazon.ata.texttruncator.TextTruncatorTest

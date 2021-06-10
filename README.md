@@ -18,12 +18,12 @@ an arbitrary length. Unfortunately, they're going out of town, but you've
 volunteered to finish it off. They've created the class and a "happy case" unit
 test, and it's up to you to write some of the remaining tests.
 
-Inside this same directory (`src/com/amazon/ata/unittesting/prework/texttruncator`) is
+Inside this same directory (`src/com/amazon/ata/unittesting/texttruncator`) is
 `TextTruncator.java`, the file containing the `TextTruncator` class. The test
 class for `TextTruncator` lives in a very similar directory under tst (rather
-than src): `tst/com/amazon/ata/unittesting/prework/texttruncator`. This test class is
+than src): `tst/com/amazon/ata/unittesting/texttruncator`. This test class is
 `TextTruncatorTest` and is declared in the same Java package as `TextTruncator`
-(`com.amazon.ata.unittesting.prework.texttruncator`) This represents two common conventions
+(`com.amazon.ata.unittesting.texttruncator`) This represents two common conventions
 at Amazon:
 1. We put the source code that'll run in production under 'src' and the code
 that tests it under 'tst' at the top of the package.\*
@@ -70,7 +70,7 @@ did you remember to annotate your method with `@Test`?)
 
 (Hint: Make sure everything is working together by running all tests, either
 with the green triangle on the class declaration, or in the terminal with
-`rde workflow run unittesting-prework-texttruncator`.)
+`rde workflow run unittesting-texttruncator`.)
 
 ## Test2: Test that `truncateTo()` returns a truncated string of the desired length.
 Write a test that creates a `TextTruncator` instance with a `String` that's
@@ -94,6 +94,6 @@ the result of `truncateTo()`).
 This test should fail when you run it. Now go fix `TextTruncator` so that all
 the tests (including this one) pass!
 
-Run `rde workflow run unittesting-prework-texttruncator` and verify that all the tests pass.
+Run `rde workflow run unittesting-texttruncator` and verify that all the tests pass.
 Commit and push your changes, find the URL for the commit on CodeBrowser, and
 answer the Canvas question.
