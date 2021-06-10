@@ -1,9 +1,9 @@
 # Unit Testing Prework: TextTruncator
 
-**Branch name:** unittesting-prework-texttruncator
+**Branch name:** unittestings-texttruncator
 
 **RDE Workflows:**
-* `unittesting-prework-texttruncator`
+* `unittesting-texttruncator`
 
 ## Introduction
 Your team owns the Goodreads website and is working on displaying a list of
