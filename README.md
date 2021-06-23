@@ -1,9 +1,6 @@
 # Unit Testing Prework: TextTruncator
 
-**Branch name:** unittestings-texttruncator
-
-**RDE Workflows:**
-* `unittesting-texttruncator`
+**GitHub repo:** unittestings-texttruncator
 
 ## Introduction
 Your team owns the Goodreads website and is working on displaying a list of
@@ -34,8 +31,8 @@ You should follow these conventions as well.
 \* There's a slight variation on this for packages that use something called
 "Gradle" for handling build tasks, but it's similar enough that you'll have no
 trouble adapting. Also, don't worry about Gradle right now, we just wanted to
-prepare you in case you see `src/main/java/com/amazon/...` and
-`src/test/java/com/amazon/...` in a package you're exploring instead of `src` and
+prepare you in case you see `src/main/com/amazon/...` and
+`src/test/com/amazon/...` in a package you're exploring instead of `src` and
 `tst`. It's the same idea.
 
 ## Run the existing test
@@ -46,7 +43,7 @@ Verify that the existing test passes.
 1. Now run all the tests in the test class (yes, there's still only one!), by
 clicking on the green arrows next
 to `TextTruncatorTest` and clicking "Run 'TextTruncatorTest'".
-Alternately, type `rde workflow run unittesting-prework-texttruncator` in the terminal.
+Alternately, type `./gradlew -q clean :test` in the terminal.
 This will run the one unit test that's written so far, but when you add more,
 this is how you can run them all at once.
 
@@ -70,7 +67,7 @@ did you remember to annotate your method with `@Test`?)
 
 (Hint: Make sure everything is working together by running all tests, either
 with the green triangle on the class declaration, or in the terminal with
-`rde workflow run unittesting-texttruncator`.)
+`./gradlew -q clean :test`.)
 
 ## Test2: Test that `truncateTo()` returns a truncated string of the desired length.
 Write a test that creates a `TextTruncator` instance with a `String` that's
@@ -94,6 +91,6 @@ the result of `truncateTo()`).
 This test should fail when you run it. Now go fix `TextTruncator` so that all
 the tests (including this one) pass!
 
-Run `rde workflow run unittesting-texttruncator` and verify that all the tests pass.
-Commit and push your changes, find the URL for the commit on CodeBrowser, and
+Run `./gradlew -q clean :test` and verify that all the tests pass.
+Commit and push your changes and use your git repository URL to
 answer the Canvas question.

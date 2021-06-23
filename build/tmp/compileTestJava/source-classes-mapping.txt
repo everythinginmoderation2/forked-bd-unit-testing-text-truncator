@@ -1,2 +1,2 @@
-com/amazon/ata/texttruncator/TextTruncatorTest.java
- com.amazon.ata.texttruncator.TextTruncatorTest
+com/amazon/ata/unittesting/texttruncator/TextTruncatorTest.java
+ com.amazon.ata.unittesting.texttruncator.TextTruncatorTest
