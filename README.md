@@ -1,6 +1,6 @@
 # Unit Testing Prework: TextTruncator
 
-**GitHub repo:** unittestings-texttruncator
+**GitHub repo:** [ebd-unit-testing-text-truncator](https://github.com/LambdaSchool/ebd-unit-testing-text-truncator)
 
 ## Introduction
 Your team owns the Goodreads website and is working on displaying a list of
