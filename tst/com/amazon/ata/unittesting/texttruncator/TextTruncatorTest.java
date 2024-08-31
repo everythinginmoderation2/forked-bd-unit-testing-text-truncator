@@ -23,5 +23,16 @@ public class TextTruncatorTest {
     }
 
     /* ADD YOUR TESTS HERE */
+    @Test
+    public void trunctateTo_nullInput_returnsEmptyString() {
+        //GIVEN
+        String nullString = null;
+        TextTruncator truncator = new TextTruncator(nullString);
 
+        //WHEN
+        String truncatedString = truncator.truncateTo(10);
+
+        //THEN
+        Assertions.assertEquals("", truncatedString, "Expected to truncate to empty string");
+    }
 }
