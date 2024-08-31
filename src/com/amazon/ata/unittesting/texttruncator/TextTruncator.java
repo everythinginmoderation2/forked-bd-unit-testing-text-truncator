@@ -67,7 +67,9 @@ public class TextTruncator {
         }
 
         String truncatedVersion = stringToTruncate.substring(0, maxLength);
-        truncatedVersion = truncatedVersion + suffixToAdd;
+        if (maxLength < stringToTruncate.length()) {
+            truncatedVersion = truncatedVersion + suffixToAdd;
+        }
         return truncatedVersion;
     }
 }
